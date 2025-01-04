@@ -36,6 +36,10 @@ const App = () => {
           path="/dashboard"
           element={<ProtectedRoute element={<Dashboard />} allowedRoles={['Admin', 'Manager', 'Staff']} />}
         />
+        <Route
+          path="/stockalters"
+          element={<ProtectedRoute element={<InventoryStockAlerts />} allowedRoles={['Admin', 'Manager', 'Staff']} />}
+        />
       </Routes>
       <Footer />
       </div>
