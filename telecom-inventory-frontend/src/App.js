@@ -8,6 +8,7 @@ import Login from './pages/Login';
 import Products from './pages/Products';
 import Suppliers from './pages/Suppliers';
 import Dashboard from './pages/Dashboard';
+import InventoryStockAlerts from './pages/InventoryStockAlerts';
 
 const ProtectedRoute = ({ element, allowedRoles }) => {
   const { user } = useAuth();
