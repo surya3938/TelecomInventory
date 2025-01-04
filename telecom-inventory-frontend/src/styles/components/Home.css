@@ -1,0 +1,53 @@
+.home-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-heading {
+    color: #0073e6;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-subheading {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .home-login-options {
+    margin-top: 20px;
+  }
+  
+  .home-login-btn, .home-logout-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home-login-btn:hover, .home-logout-btn:hover {
+    background-color: #005bb5;
+  }
+  
+  .home-actions a {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .home-actions a:hover {
+    background-color: #005bb5;
+  }
+  
